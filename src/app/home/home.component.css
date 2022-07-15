@@ -1,0 +1,39 @@
+#projects {
+    margin: 6rem;
+    padding-inline: 5rem;
+}
+
+.card {
+    border-inline-width: 3px;
+}
+
+.card-title {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-text {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.list-group {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-link {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.education-list img {
+    width: 64px;
+    height: 64px;
+    float: left;
+}
+
+.education-list {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 6.5em;
+}
