@@ -1,5 +1,18 @@
+.nav {
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+}
+
 .nav-link {
     font-size: 20px;
     font-family: 'Lexend', sans-serif;
     color: #333652;
+}
+
+.navbar {
+    background-color: #E9EAEC;
+    width: 100vw;
+    height: 2.75em;
+
 }
