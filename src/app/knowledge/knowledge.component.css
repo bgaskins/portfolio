@@ -1,0 +1,25 @@
+#knowledge {
+    text-align: center;
+    font-family: 'Lexend', sans-serif;
+    color: #333652;
+    background-color: #90ADC6;
+}
+
+.list-group-item {
+    background-color: #90ADC6;
+}
+
+fa-icon {
+    color: #ffc300;
+    padding: 1.5em;
+    padding-right: 0;
+}
+
+h3 {
+    padding: 1em;
+    margin-top: 1em;
+}
+
+.a, span {
+padding: .5em;
+}

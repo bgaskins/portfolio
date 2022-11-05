@@ -1,92 +1,140 @@
-<div class="container my-5" id="intro">
+<link href="https://fonts.googleapis.com/css2?family=Lexend&display=swap" rel="stylesheet">
+
+
+<body>
+
+    <app-header></app-header>
+
+<div class="container-fluid mx-auto" id="intro">
     <h1 class="display-1">Bryan Gaskins</h1>
-    <h3 id="intro-sentence">Hi, I'm Bryan. I'm a Full Stack Web Developer in the US.</h3>
+    <h3 id="intro-sentence">Hi, I'm Bryan. I'm an artist and Full Stack Web Developer from Worcester, Ma.</h3>
 </div>
 
-<h4 id="project-header">Projects</h4>
-<div class="container" id="projects">
+    <app-knowledge></app-knowledge>
+
+    <app-education></app-education>
+
+
+<div class="container-fluid mx-auto" id="projects">
+    <h3>Projects</h3>
     <div class="row">
-        <div class="col-sm-4 mx-auto">
-            <div class="card" style="width: 18rem;">
-                <img src="./assets/images/project1.png" class="card-img-top" alt="Project One">
+        
+        
+        <div class="col-sm-4 align-items-stretch">
+            <div class="card w-75 h-100 mx-auto" style="width: 16em;">
+                <img src="./assets/images/lockedme.png" class="card-img-top" alt="Project One">
                 <div class="card-body">
-                    <h5 class="card-title">Project 1</h5>
-                    <p class="card-text">This is a project that includes many languages, frameworks and tools.</p>
+                    <h5 class="card-title">Locked Me File Assistant</h5>
+                    <p class="card-text">Simple Java console-based app that allows a user to input menu options for displaying, searching,
+                        adding, and deleting files.</p>
                 </div>
                 <ul class="list-group list-group-flush">
-                    <li class="list-group-item">HTML</li>
-                    <li class="list-group-item">CSS</li>
-                    <li class="list-group-item">JavaScript</li>
-                    <li class="list-group-item">Angular</li>
-                    <li class="list-group-item">Bootstrap</li>
+                        <li class="list-group-item">
+                            <span class="badge rounded-pill bg-warning text-dark">Java</span>
+                        </li>
+                    <li class="list-group-item"> 
+                        <p class="project-concepts">
+                            <strong> Concepts used: </strong>exception handling, collections framework, algorithms, data structures, scrum
+                    </p>
+                    </li>
                 </ul>
-                <div class="card-body">
-                    <a href="#" class="card-link">Live Demo</a>
-                    <a href="#" class="card-link">View Code</a>
+                <div class="card-body" id="card-bottom">
+                    <div class="card-body">                  
+                          <a href="https://github.com/bgaskins/locked_me" class="btn">View Project</a>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="col-sm-4 mx-auto">
-            <div class="card" style="width: 18rem;">
-                <img src="./assets/images/project2.png" class="card-img-top" alt="Project Two">
+
+
+
+
+
+        <div class="col-sm-4">
+            <div class="card w-75 h-100 mx-auto" style="width: 16em;">
+                <img src="./assets/images/nmscinemas.png" class="card-img-top" alt="Project Three">
                 <div class="card-body">
-                    <h5 class="card-title">Project 2</h5>
-                    <p class="card-text">This is a project that includes many languages, frameworks and tools.</p>
+                    <h5 class="card-title">NMS Cinemas</h5>
+                    <p class="card-text">A movie ticket ordering app that allows customers to purchase tickets anywhere.</p>
                 </div>
                 <ul class="list-group list-group-flush">
-                    <li class="list-group-item">HTML</li>
-                    <li class="list-group-item">CSS</li>
-                    <li class="list-group-item">JavaScript</li>
-                    <li class="list-group-item">Angular</li>
-                    <li class="list-group-item">Bootstrap</li>
+                    <li class="list-group-item">                            
+                        <span class="badge rounded-pill bg-warning text-dark">Java</span>
+                       
+                        <span class="badge rounded-pill bg-warning text-dark">HTML5</span>
+                       
+                        <span class="badge rounded-pill bg-warning text-dark">CSS3</span>
+                     
+                        <span class="badge rounded-pill bg-warning text-dark">JS</span>
+                   
+                        <span class="badge rounded-pill bg-warning text-dark">Typescript</span>
+
+                        <span class="badge rounded-pill bg-warning text-dark">MySql</span>
+
+                    </li>
+                    <li class="list-group-item"><p class="project-concepts">
+                        <strong> Concepts used: </strong> Spring MVC, dynamic data, frameworks (Spring Boot, Bootstrap, Hibernate), backend/frontend integration, APIs, authentication, scrum
+                </p></li>
                 </ul>
-                <div class="card-body">
-                    <a href="#" class="card-link">Live Demo</a>
-                    <a href="#" class="card-link">View Code</a>
+                <div class="card-body" id="card-bottom">
+                    <div class="card-body">                  
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              View Project
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                              <a class="dropdown-item" href="https://github.com/bgaskins/nms_cinemas_frontend">Frontend</a>
+                              <a class="dropdown-item" href="https://github.com/bgaskins/nms_cinemas_backend">Backend</a>
+                            </div>
+                          </div>     
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="col-sm-4 mx-auto">
-            <div class="card" style="width: 18rem;">
-                <img src="./assets/images/project3.png" class="card-img-top" alt="Project Three">
+
+        <div class="col-sm-4">
+            <div class="card w-75 h-100 mx-auto" style="width: 16em;">
+                <img src="./assets/images/jaxsmarket.png" class="card-img-top" alt="Project Two">
                 <div class="card-body">
-                    <h5 class="card-title">Project 3</h5>
-                    <p class="card-text">This is a project that includes many languages, frameworks and tools.</p>
+                    <h5 class="card-title">Jax's Market Grocery App</h5>
+                    <p class="card-text">Dynamic and responsive grocery ordering app offering groceries and home goods for online ordering and pickup.</p>
                 </div>
                 <ul class="list-group list-group-flush">
-                    <li class="list-group-item">HTML</li>
-                    <li class="list-group-item">CSS</li>
-                    <li class="list-group-item">JavaScript</li>
-                    <li class="list-group-item">Angular</li>
-                    <li class="list-group-item">Bootstrap</li>
+                    <li class="list-group-item">                            
+                        <span class="badge rounded-pill bg-warning text-dark">Java</span>
+                       
+                        <span class="badge rounded-pill bg-warning text-dark">HTML5</span>
+                       
+                        <span class="badge rounded-pill bg-warning text-dark">CSS3</span>
+                     
+                        <span class="badge rounded-pill bg-warning text-dark">JS</span>
+                   
+                        <span class="badge rounded-pill bg-warning text-dark">Typescript</span>
+
+                        <span class="badge rounded-pill bg-warning text-dark">MySql</span>
+                    </li>
+                    <li class="list-group-item"><p class="project-concepts">
+                        <strong> Concepts used: </strong> Spring MVC, dynamic data, frameworks (Spring Boot, Bootstrap, Hibernate), backend/frontend integration, APIs, scrum
+                </p></li>
                 </ul>
-                <div class="card-body">
-                    <a href="#" class="card-link">Live Demo</a>
-                    <a href="#" class="card-link">View Code</a>
+                <div class="card-body" id="card-bottom">
+                    <div class="card-body">                  
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              View Project
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                              <a class="dropdown-item" href="https://github.com/bgaskins/nms_cinemas_frontend">Frontend</a>
+                              <a class="dropdown-item" href="https://github.com/bgaskins/nms_cinemas_backend">Backend</a>
+                            </div>
+                          </div>     
+                    </div>
                 </div>
-            </div>
         </div>
+    </div>
     </div>
 </div>
 
-<h4 id="education">Education</h4>
-<div class="container">
-    <div class="education-list">
-        <ul class="list-unstyled">
-            <li class="media">
-                <img class="mr-3" src="./assets/images/caltechlogo.png" alt="Caltech Logo">
-                <div class="media-body" id="desc">
-                    <h5>Caltech Center for Technology and Management Education</h5>
-                    Full Stack Web Development Post Graduate Degree // Feb 2022 - present
-                </div>
-            </li>
-            <li class="media my-4">
-                <img class="mr-3" src="./assets/images/uvmlogo.png" alt="University of Vermont Logo">
-                <div class="media-body" id="desc">
-                    <h5>University of Vermont</h5>
-                    Bachelor's Degree in Studio Art // Graduated 2010
-                </div>
-            </li>
-        </ul>
-    </div>
-</div>
+
+</body>
+    <app-footer></app-footer>
