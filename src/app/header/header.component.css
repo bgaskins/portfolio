@@ -18,3 +18,8 @@
 .nav-item {
     text-align: right;
 }
+
+h4 {
+    margin-top: .25em;
+    margin-left: .50em;
+}
