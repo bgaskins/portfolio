@@ -2,11 +2,11 @@
     text-align: center;
     font-family: 'Lexend', sans-serif;
     color: #333652;
-    background-color: #90ADC6;
+    background-color: #5CA3C6;
 }
 
 .list-group-item {
-    background-color: #90ADC6;
+    background-color: #5CA3C6;
 }
 
 fa-icon {
@@ -16,7 +16,8 @@ fa-icon {
 }
 
 h3 {
-    padding: 1em;
+    font-weight:bolder;
+    padding: .5em;
     margin-top: 1em;
 }
 

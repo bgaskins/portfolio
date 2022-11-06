@@ -8,7 +8,8 @@ import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
 import { KnowledgeComponent } from './knowledge/knowledge.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { EducationComponent } from './education/education.component'
+import { EducationComponent } from './education/education.component';
+import { CvComponent } from './cv/cv.component'
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { EducationComponent } from './education/education.component'
     HomeComponent,
     FooterComponent,
     KnowledgeComponent,
-    EducationComponent
+    EducationComponent,
+    CvComponent
   ],
   imports: [
     BrowserModule,

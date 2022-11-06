@@ -1,5 +1,5 @@
 html, body {
-    background-color: #E9EAEC;
+    background-color: #242E51;
     font-family: 'Lexend', sans-serif;
     width: 100%;
     height: 100%;
@@ -8,35 +8,40 @@ html, body {
     overflow-x: hidden; 
 }
 
-/* Sections */
+/* Header/intro */
 
 #intro {
     text-align: center;
-    margin-top: 6em;
-    color: #333652;
+    margin-top: 13em;
+    color: #ffffff;
     
 }
 
-#knowledge {
+#intro-sentence {
     text-align: center;
-    color: #333652;
-    background-color: #90ADC6;
-    margin: 0;
+    margin: 4.5em;
+    margin-top: 4em;
+    margin-bottom: em;
+    color: #ffffff;
 }
 
+
+
+/* Projects */
+
 #projects {
-    background-color: #b0d0d3;
+    background-color: #282C47;
     padding: 2em;
 }
 
-#education {
+#project-header {
+    color: #ffc300;
 
-    text-align: center;
-    font-family: 'Lexend', sans-serif;
-    margin: 0;
 }
 
-/* */
+
+
+/* Cards */
 
 .card {
     font-family: 'Lexend', sans-serif;
@@ -65,14 +70,13 @@ html, body {
 
 h3 {
     text-align: center;
+    font-weight:bolder;
     color: #023047;
     padding: 1em;
     margin-bottom: 1em;
 }
 
-#intro-sentence {
-    margin: 4.5em;
-}
+
 
 li {
     min-height: 9em;
@@ -109,4 +113,3 @@ h5 {
 #card-bottom, a {
     text-align: center;
 }
-
