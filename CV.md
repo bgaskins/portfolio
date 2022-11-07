@@ -1,3 +1,3 @@
-layout: page
-title: "CV"
-permalink: /my_portfolio/cv
+layout: page <br>
+title: "CV" <br>
+permalink: /cv
