@@ -9,7 +9,7 @@
     "test": "ng test"
   },
   "private": true,
-  "homepage" : "https://bgaskins.github.io/my_portfolio",
+  "homepage" : "https://bgaskins.github.io/",
   "dependencies": {
     "@angular/animations": "^14.0.0",
     "@angular/common": "^14.0.0",
