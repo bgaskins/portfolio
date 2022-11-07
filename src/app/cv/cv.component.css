@@ -1,0 +1,8 @@
+#cv {
+    background-color: #242E51;
+    text-align: center;
+}
+
+#cv, img {
+padding:4em;
+}
