@@ -1,3 +1,3 @@
 layout: page <br>
 title: "CV" <br>
-permalink: /cv
+permalink: /my_portfolio/cv
