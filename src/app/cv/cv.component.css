@@ -10,14 +10,8 @@ html, body {
     overflow-x:visible; 
 }
 
-#cv {
-    max-width: 100%;
-    height: auto;
-    text-align: center;
-}
 
 img {
     width: 50%;
-    height: auto;
     padding:4em;
 }
