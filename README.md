@@ -1,2 +1,2 @@
-Portfolio for Bryan Gaskins
+Portfolio for Bryan Gaskins<br>
 bryandgaskins@gmail.com
