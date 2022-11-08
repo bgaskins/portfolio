@@ -4,5 +4,6 @@
 }
 
 #cv, img {
-padding:4em;
+    width: 50%;
+    padding:4em;
 }
