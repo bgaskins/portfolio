@@ -1,5 +1,8 @@
 
 html, body {
+
+    max-width: 100%;
+    height: auto;
     background-color: #242E51;
     font-family:Arial, Helvetica, sans-serif;
     width: 100%;
@@ -10,6 +13,11 @@ html, body {
     overflow-x:visible; 
 }
 
+@media screen and (max-width: 480px) {
+    img {
+         width: 400px;
+    }
+}
 
 img {
     width: 50%;
