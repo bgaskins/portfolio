@@ -4,7 +4,6 @@ body {
 }
 
 .container {
-    margin-top:3em;
     height: auto;
     margin: auto;
     position: absolute;
@@ -15,4 +14,3 @@ body {
 .container img {
     max-width: 100%;
 }
-
