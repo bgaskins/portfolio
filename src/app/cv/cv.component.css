@@ -4,8 +4,8 @@ body {
 }
 
 .container {
-
-    height: 100%;
+    margin-top:3em;
+    height: auto;
     margin: auto;
     position: absolute;
     text-align: center;
