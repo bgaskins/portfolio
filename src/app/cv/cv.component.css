@@ -17,5 +17,6 @@ body {
 }
 
 .container img {
+    margin-top: 4em;
     max-width: 100%;
 }
