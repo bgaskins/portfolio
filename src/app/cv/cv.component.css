@@ -6,13 +6,12 @@ body {
 .container {
     bottom: 0;
     left: 0;
-    right: 0;
-    right: 0;
-    height: 250px;
+    height: 300px;
     margin: auto;
-    bottom: 3;
     position: absolute;
+    right: 0;
     text-align: center;
+    top: 0;
     width: 100%;
 }
 
