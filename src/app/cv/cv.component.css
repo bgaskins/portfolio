@@ -17,3 +17,10 @@ body {
 .container img {
     max-width: 100%;
 }
+
+.btn {
+    background-color: #000000;
+    color: #ffffff
+
+}
+
