@@ -6,6 +6,7 @@ body {
 .container {
     position:absolute;
     top:3%;
+    left:3%;
     height: 100%;
     margin: auto;
     position: absolute;
@@ -15,4 +16,10 @@ body {
 
 .container img {
     max-width: 100%;
+}
+
+.btn {
+    background-color: #000000;
+    color: #ffffff
+
 }
