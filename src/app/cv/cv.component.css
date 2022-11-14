@@ -5,8 +5,8 @@ body {
 
 .container {
     position:absolute;
-    top:3%;
-    left:3%;
+    top:10%;
+    left:4%;
     height: 100%;
     margin: auto;
     position: absolute;
@@ -18,8 +18,8 @@ body {
     max-width: 100%;
 }
 
-.btn {
+.button {
     background-color: #000000;
     color: #ffffff
-
 }
+
