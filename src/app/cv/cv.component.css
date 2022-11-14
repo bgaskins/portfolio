@@ -29,3 +29,9 @@ a:link {
     background-color: #000000;
     color: #ffffff
 }
+
+a:visited {
+    text-decoration: none;
+    background-color: #000000;
+    color: #ffffff
+}
