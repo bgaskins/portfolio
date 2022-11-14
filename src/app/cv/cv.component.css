@@ -19,8 +19,10 @@ body {
 }
 
 .btn {
-    text-decoration: none;
     background-color: #000000;
     color: #ffffff
 }
 
+a:link {
+    text-decoration: none;
+}
