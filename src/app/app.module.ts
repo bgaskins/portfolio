@@ -9,7 +9,7 @@ import { FooterComponent } from './footer/footer.component';
 import { KnowledgeComponent } from './knowledge/knowledge.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { EducationComponent } from './education/education.component';
-import { CvComponent } from './cv/cv.component'
+import { ProjectsComponent } from './projects/projects.component';
 
 
 @NgModule({
@@ -20,7 +20,7 @@ import { CvComponent } from './cv/cv.component'
     FooterComponent,
     KnowledgeComponent,
     EducationComponent,
-    CvComponent
+    ProjectsComponent,
   ],
   imports: [
     BrowserModule,
